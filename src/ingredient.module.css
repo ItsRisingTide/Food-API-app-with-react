@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ingredient {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+/* .img {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1;
+
+  transform: translateY(-50%);
+} */
+
+.img {
+  display: block;
+  max-width: auto;
+  max-height: 100%;
+  margin-left: 20px;
+}
