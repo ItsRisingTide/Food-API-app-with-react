@@ -26,7 +26,6 @@
 }
 
 .search {
-  /* border-bottom: 4px solid #4b7a6b; */
   border-bottom-style: groove;
   border-bottom-color: green;
   border-bottom-width: 7px;
@@ -41,6 +40,7 @@
   color: rgba(68, 110, 13, 0.911);
   padding: 7px 10px;
   width: 300px;
+  border: 1px solid green;
 }
 
 .search__button {
@@ -51,4 +51,11 @@
   padding: 7px 10px;
   color: green;
   background-color: #f1f5df;
+  border: 1px solid green;
+}
+
+@media (max-width: 600px) {
+  .search__input {
+    width: 200px;
+  }
 }

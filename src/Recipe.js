@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./recipe.module.css";
-import Ingredient from "./Ingredient.js";
 
 const Recipe = ({
   label,
